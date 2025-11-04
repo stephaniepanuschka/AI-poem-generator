@@ -1,5 +1,3 @@
-alert("Hello World");
-console.log("JS file loaded successfully");
 
 function displayPoem(response) {
 
@@ -32,4 +30,3 @@ axios.get(apiUrl).then(displayPoem);
 let poemFormElement = document.querySelector("#poem-generator-form");
 let instructionsInput = document.querySelector("#user-instructions"); 
 poemFormElement.addEventListener("submit", generatePoem);
-console.log("Event listener attached to form");
