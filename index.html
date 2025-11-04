@@ -7,6 +7,7 @@
   <title>AI Poem Generator</title>
 </head>
 <body>
+  <div class="container">
   <header>
   <h1>
     Hey, Welcome to the AI Poem Generator
@@ -20,10 +21,11 @@
     autofocus
     required
     autocomplete="off"
+    class="instructions"
     />
-  <input type="submit" />
+  <input type="submit" class="submit-button"/>
   </form>
-  <div>
+  <div class="poem">
     This is where the poem will go
     <b></b>
   </div>
@@ -35,5 +37,6 @@
     <a href="https://github.com/stephaniepanuschka/AI-poem-generator" target="_blank">
 open-sourced on GitHub</a> and is hosted on <a href="https://ai-poem-generator-psi.vercel.app/" target="_blank">Vercel</a></footer>
   <script src="src/index.js"></script>
+  </div>
 </body>
 </html>
