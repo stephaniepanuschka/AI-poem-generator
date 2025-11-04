@@ -1,42 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="src/style.css">
-  <title>AI Poem Generator</title>
-</head>
-<body>
-  <div class="container">
-  <header>
-  <h1>
-    Hey, Welcome to the AI Poem Generator
-  </h1>
-</header>
+<!DOCTYPE html> <html lang="en"> 
+  <head> <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="src/style.css"> <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+      <title>AI Poem Generator</title> 
+    </head> 
+    <body> 
+      <div class="container">
+         <header> <h1> Hey, Welcome to the AI Poem Generator </h1> 
+        </header> 
+        <main> 
+          <form id="poem-generator-form">
+             <input 
+            type="text"
+            placeholder="Enter the topic of the poem" 
+            autofocus 
+            required 
+            autocomplete="off" 
+            class="instructions" /> 
+            <input type="submit" class="submit-button"/> 
+          </form>
+           <div class="poem" id="poem"></div>
+           </main> 
+           <footer> This AI project was coded by <a href="https://github.com/stephaniepanuschka" target="_blank">Stephanie Panuschka</a> 
+            <a href="https://github.com/stephaniepanuschka/AI-poem-generator" target="_blank"> open-sourced on GitHub</a> and is hosted on <a href="https://ai-poem-generator-psi.vercel.app/" target="_blank">Vercel</a></footer> <script src="src/index.js">
 
-<main>
-  <form>
-    <input type="text" 
-    placeholder="Enter the topic of the poem" 
-    autofocus
-    required
-    autocomplete="off"
-    class="instructions"
-    />
-  <input type="submit" class="submit-button"/>
-  </form>
-  <div class="poem">
-    This is where the poem will go
-    <b></b>
-  </div>
-</main>
-
-
-
-  <footer> This AI project was coded by <a href="https://github.com/stephaniepanuschka" target="_blank">Stephanie Panuschka</a>
-    <a href="https://github.com/stephaniepanuschka/AI-poem-generator" target="_blank">
-open-sourced on GitHub</a> and is hosted on <a href="https://ai-poem-generator-psi.vercel.app/" target="_blank">Vercel</a></footer>
-  <script src="src/index.js"></script>
-  </div>
-</body>
-</html>
+            </script>
+             </div> 
+            </body> 
+            </html>
