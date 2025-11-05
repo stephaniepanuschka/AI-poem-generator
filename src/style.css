@@ -1,10 +1,10 @@
 body {
-  background-color: #D0D7DB;
+  background-color: #ffd5c2;
   font-family : Arial, Helvetica, sans-serif
 }
 
 a{
-  color: #5D82A2;
+  color: #588b8b;
 }
 
 .container {
@@ -50,24 +50,24 @@ form{
 
 .instructions{
   padding: 16px;
-  border: 1px solid #5D82A2;
+  border: 1px solid #ffd5c2;
   width: 90%;
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: #5D82A2;
+  color: #ffd5c2;
 }
 
 .submit-button{
   margin-left: 10px;
-  background: #5D82A2;
+  background: #588b8b;
   color: white;
   border: none;
   border-radius: 50px;
   padding: 14px 20px;
   width: 150px;
   font-size: 16px;
-  border-color: #5D82A2;
+  border-color: #588b8b;
 }
 
 .poem{
